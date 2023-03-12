@@ -1,1 +1,1 @@
-https://${Anastasiya-94}.github.io/cssBayan/cssBayan/index.html
+https://Anastasiya-94.github.io/cssBayan/cssBayan/index.html

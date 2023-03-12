@@ -1,25 +1,25 @@
 .container {
     max-width: 1920px;
     margin: 20, auto;
-    
+    background-color: beige;
+    padding: 40px;
 }
 
 body {
     font-size: 16px;
     line-height: 1.5;
+    
 }
 
 .accordeon_content {
-    
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: beige;
-    
+    justify-content: space-between;       
 }
 .content {
     display: flex;
     align-items: center;
+    transition: 1.5s;
 }
 .list_content1 {
     font-family: "Inter";
@@ -31,6 +31,15 @@ body {
     padding: 10px;
     transition: color 0.3s;
 }
+.plus_icon {
+    padding-right: 25px;
+    transition: 0.4s;
+   
+}
+.minus_icon {
+    display: none;
+}
+
 .list_content1:hover {
     color: rgb(201, 182, 83);
 }
@@ -40,7 +49,7 @@ body {
     display: none;
 }
 .accordeon_icon {
-    background-image: ;
+
 }
 .img_icon {
     display: none;
@@ -50,19 +59,19 @@ body {
 
 .img_accordeon {
     
-    padding-left: 150px;
+    padding-right: 200px;
     transition: .3s;
 }
 .img_accordeon:hover {
     transform: scale(1.1);
 }
 .accordeon_input:checked + .img_icon {
-    display: block;
+    display: block;    
 }
 
-/* .accordeon_content:hover .img_icon { 
-    display:block;
-    outline: 1px solid;
-} */
+
+
+
+
 
 
